@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 10px solid cadetblue;
+  border: 10px solid #5f9ea0;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -86,7 +86,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: white;
-  color: cadetblue;
+  color: #5f9ea0;
 }
 .card {
   margin: 30px;
@@ -94,7 +94,7 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: center;
   background: #fff;
-  border-bottom: 4px solid cadetblue;
+  border-bottom: 4px solid #5f9ea0;
   border-radius: 6px;
   transition: all .5s;
 }
@@ -214,4 +214,8 @@ a.social:hover {
 .gallery-a img {
   width: 600px;
   height: 600px;
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
