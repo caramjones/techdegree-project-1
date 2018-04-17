@@ -92,7 +92,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid cadetblue;
   border-radius: 6px;
@@ -123,7 +123,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 40px;
 }
 
 footer .copyright {
@@ -203,4 +203,15 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+.gallery-a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-a img {
+  width: 600px;
+  height: 600px;
 }
